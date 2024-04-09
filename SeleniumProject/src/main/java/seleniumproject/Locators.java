@@ -52,8 +52,6 @@ public class Locators extends Base {
 		WebElement partialradiobutton =driver.findElement(By.partialLinkText("Radio Buttons"));
 		WebElement partialajaxform =driver.findElement(By.partialLinkText("Ajax Form"));
 		
-		
-		
 	}
 	
 
