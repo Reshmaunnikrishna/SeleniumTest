@@ -1,4 +1,4 @@
-package seleniumproject;
+package testscript1;
 //dependency added in pom.xml
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

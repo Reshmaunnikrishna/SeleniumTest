@@ -1,4 +1,4 @@
-package seleniumproject;
+package testscript1;
 
 public class BrowserCommands extends Base{
 	

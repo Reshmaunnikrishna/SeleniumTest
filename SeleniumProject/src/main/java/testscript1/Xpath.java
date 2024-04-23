@@ -1,4 +1,4 @@
-package seleniumproject;
+package testscript1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -11,8 +11,7 @@ public class Xpath extends Base{
 		WebElement contains2 =driver.findElement(By.xpath("//button[contains(@id,'two')]"));
 		WebElement contains3 =driver.findElement(By.xpath("//input[contains(@id,'single')]"));
 		WebElement contains4 =driver.findElement(By.xpath("//input[contains(@id,'grid')]"));
-		WebElement contains5 =driver.findElement(By.xpath("//button[contains(@id,'first')]"));
-		 
+		WebElement contains5 =driver.findElement(By.xpath("//button[contains(@id,'first')]"));	 
 	}
 	
 	public void text()    //Syntax: //tag[text()=value]

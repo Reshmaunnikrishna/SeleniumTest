@@ -1,4 +1,4 @@
-package seleniumproject;
+package testscript1;
 
 public class NavigationCommands extends Base{
 	
