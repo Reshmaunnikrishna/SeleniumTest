@@ -1,12 +1,8 @@
 package testscript2;
-
 import java.util.Iterator;
 import java.util.Set;
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import testscript1.Base;
 
 public class HandlingMultipleWindow extends Base{
@@ -26,9 +22,7 @@ public class HandlingMultipleWindow extends Base{
 			{
 				driver.switchTo().window(childwindow);
 				WebElement login=driver.findElement(By.xpath("//div[@class='x1c436fg']//child::div[@role='button']"));
-				login.click();
-				
-				
+				login.click();	
 			}
 		}
 	}
@@ -38,9 +32,6 @@ public class HandlingMultipleWindow extends Base{
 		handlingmultiplewindow.initializeBrowser();
 		handlingmultiplewindow.multipleWindow();
 		//handlingmultiplewindow.driverQuitAndClose();
-		
-	
-
 	}
 
 }

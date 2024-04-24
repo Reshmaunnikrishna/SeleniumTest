@@ -37,7 +37,6 @@ public class Table extends Base{
 			{
 				System.out.println(option.getText());
 			}
-
 	}
 	public static void main(String[] args) {
 		Table table=new Table ();

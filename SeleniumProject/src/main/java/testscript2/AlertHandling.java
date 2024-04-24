@@ -20,8 +20,10 @@ public class AlertHandling extends Base{
 		driver.navigate().to("https://selenium.qabible.in/javascript-alert.php");
 		WebElement alert2=driver.findElement(By.xpath("//button[@onclick=\'jsConfirm()\']"));
 		alert2.click();
-		//driver.switchTo().alert().accept();
-		driver.switchTo().alert().dismiss();
+		driver.switchTo().alert().accept();
+		WebElement txt=driver.findElement(By.xpath("//p[@id='confirm-demo']"));
+		System.out.println(txt.getText());
+	    //driver.switchTo().alert().dismiss();
 	}
 	
 	public void alert3()
@@ -35,14 +37,13 @@ public class AlertHandling extends Base{
 		//driver.switchTo().alert().dismiss();
 	}
 	
-
 	public static void main(String[] args) {
 		
 		AlertHandling alerthandling=new AlertHandling();
 		alerthandling.initializeBrowser();
-		//alerthandling.alert1();
-		alerthandling.alert2();
-		alerthandling.alert3();
+		alerthandling.alert1();
+		//alerthandling.alert2();
+		//alerthandling.alert3();
 		//alerthandling.driverQuitAndClose();
 	}
 

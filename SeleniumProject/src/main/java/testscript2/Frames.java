@@ -23,7 +23,6 @@ public class Frames extends Base {
 		driver.switchTo().frame(iframe);
 		WebElement frame3=driver.findElement(By.xpath("//a[@href='http://www.guru99.com/live-selenium-project.html']"));
 		frame3.click();
-		
 	}
 
 	public static void main(String[] args) {
@@ -33,8 +32,6 @@ public class Frames extends Base {
 		frames.nestedFrame();
 		//frames.driverQuitAndClose();
 		
-		
-
 	}
 
 }
