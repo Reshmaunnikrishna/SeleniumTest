@@ -16,8 +16,7 @@ public class ActionTest extends Base {
 		Actions action=new Actions(driver);
 		action.moveToElement(d1).build().perform();
 		action.doubleClick(d1).build().perform();
-		action.dragAndDrop(d1, d2).build().perform();
-		
+		action.dragAndDrop(d1, d2).build().perform();	
 	}
 
 	public static void main(String[] args) {

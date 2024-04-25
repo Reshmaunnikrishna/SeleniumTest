@@ -13,10 +13,10 @@ public class AlertTest extends Base{
 		WebElement a1=driver.findElement(By.xpath("//button[@class='btn btn-warning']"));
 		a1.click();
 		driver.switchTo().alert().dismiss();
+		//driver.switchTo().alert().accept();
 		WebElement a2=driver.findElement(By.xpath("//p[@id='confirm-demo']"));
 		driver.switchTo().alert().sendKeys("Hi");
-		//driver.switchTo().alert().accept();
-
+		
 	}
 
 	

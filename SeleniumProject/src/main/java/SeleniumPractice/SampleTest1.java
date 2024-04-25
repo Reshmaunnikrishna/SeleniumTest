@@ -20,7 +20,6 @@ public class SampleTest1 extends Base{
 			System.out.println(col.getText());
 		}
 		
-		
 	}
 
 	public static void main(String[] args) {

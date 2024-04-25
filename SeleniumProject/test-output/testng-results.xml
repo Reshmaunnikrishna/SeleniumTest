@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T13:25:41 GST" name="Default suite" finished-at="2024-04-25T13:25:41 GST" duration-ms="58">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T13:25:41 GST" name="Default test" finished-at="2024-04-25T13:25:41 GST" duration-ms="58">
+      <class name="testNgPackage.TestProgram">
+        <test-method signature="show()[pri:1, instance:testNgPackage.TestProgram@33990a0c]" started-at="2024-04-25T13:25:41 GST" name="show" finished-at="2024-04-25T13:25:41 GST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- show -->
+        <test-method signature="testMethod()[pri:2, instance:testNgPackage.TestProgram@33990a0c]" started-at="2024-04-25T13:25:41 GST" name="testMethod" finished-at="2024-04-25T13:25:41 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="display()[pri:3, instance:testNgPackage.TestProgram@33990a0c]" started-at="2024-04-25T13:25:41 GST" name="display" finished-at="2024-04-25T13:25:41 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- testNgPackage.TestProgram -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

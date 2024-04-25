@@ -1,4 +1,6 @@
 package testscript1;
+import java.time.Duration;
+
 //dependency added in pom.xml
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,6 +19,7 @@ public class Base {
 		driver.get("https://selenium.qabible.in/");
 		//command to maximize window
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));// implicit wait
 	}
 	
 	public void driverQuitAndClose()
