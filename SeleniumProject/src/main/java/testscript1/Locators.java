@@ -46,7 +46,7 @@ public class Locators extends Base {
 
 	public static void main(String[] args) {
 		Locators locators=new Locators();
-		locators.initializeBrowser();
+		locators.initializeBrowser(); 
 		locators.locatorId();
 		locators.locatorClassName();
 		locators.driverQuitAndClose();
